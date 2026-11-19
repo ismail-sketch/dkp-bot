@@ -1,0 +1,8 @@
+# Единые переводы строк: исходники — LF, bat-файлы — CRLF (иначе cmd глючит)
+* text=auto eol=lf
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# Бинарные файлы не трогаем
+*.ttf binary
+*.pdf binary

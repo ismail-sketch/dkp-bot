@@ -1,0 +1,13 @@
+.venv/
+.venv-dkp/
+__pycache__/
+*.py[cod]
+.env
+data/*.db
+data/*.db-*
+data/secret.key
+data/preview/
+logs/
+*.log
+.idea/
+.vscode/
